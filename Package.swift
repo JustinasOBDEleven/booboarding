@@ -6,8 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Boomboarding",
     platforms: [
-        .iOS(.v13),  // Specify the minimum iOS version
-        .macOS(.v10_15)  // Specify the minimum macOS version
+        .iOS(.v16),  // Specify the minimum iOS version
     ],
     products: [
         .library(
